@@ -1,0 +1,48 @@
+body{
+    background-image: url("fond.jpg");
+
+}
+
+cadre{
+    background-color: rgba(252, 252, 252, 0.445);
+    margin: 3%;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#raisin{
+    content: url("vert.ico");
+    width: 128px;
+    height: 128px;
+}
+
+#menu[type="checkbox"]{
+    content: url("menu.png");
+    width: 52px;
+    height: 52px; 
+    appearance: none;
+    float: right;
+}
+
+#menu[type="checkbox"]:checked {
+    content: url("menu_clic.png");
+}
+
+.a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1{
+    display: flex;
+}
+
+#photo{
+    content: url("me.jpg");
+    width: 10000px;
+    height: 1000px;
+}
