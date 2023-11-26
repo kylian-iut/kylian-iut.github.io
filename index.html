@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Redirection automatique en HTML</title>
-
-<meta http-equiv="refresh" content="0; URL=./fr">
-</head>
-
-<body>
- <p>Vous devez être redirigé vers la page en français.</p>
-</body>
-
+<script>
+<!-- Script de redirection automatique
+if (navigator.appName=="Microsoft Internet Explorer") {
+ if (navigator.browserLanguage=="fr")
+ self.location.href="fr";
+ else
+ self.location.href="en";
+}
+else {
+ if (navigator.language=="fr") self.location.href="fr";
+ else self.location.href="en";
+}
+//-->
+</script>
 </html>
