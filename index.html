@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
-<script>
-<!-- Script de redirection automatique
-if (navigator.appName=="Microsoft Internet Explorer") {
- if (navigator.browserLanguage=="fr")
- self.location.href="fr";
- else
- self.location.href="en";
-}
-else {
- if (navigator.language=="fr") self.location.href="fr";
- else self.location.href="en";
-}
-//-->
-</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirection de langue</title>
+  <script>
+    // Fonction pour obtenir la langue du navigateur
+    function getBrowserLanguage() {
+      return navigator.language || navigator.userLanguage;
+    }
+
+    // Redirection en fonction de la langue
+    window.onload = function() {
+      var userLanguage = getBrowserLanguage().toLowerCase();
+      if (userLanguage.startsWith('fr')) {
+        window.location.href = './fr'; // Redirection vers la version française
+      } else {
+        window.location.href = './en'; // Redirection vers la version anglaise par défaut
+      }
+    };
+  </script>
+</head>
+<body>
+  <!-- Contenu de la page d'accueil (peut être vide si la redirection est rapide) -->
+</body>
 </html>
