@@ -4,8 +4,7 @@ html{
 
 body{
     background-image: url("fond.jpg");
-    display: flex;
-    flex-direction: column;
+    background-size:cover
 }
 
 *{
@@ -123,8 +122,5 @@ a{
     }
     section{
         margin-top: 5px;
-    }
-    body{
-        background-size: 600%;
     }
 }
