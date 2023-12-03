@@ -107,6 +107,11 @@ a{
     text-decoration: underline;
 }
 
+iframe{
+    aspect-ratio: 16/9;
+    margin-top: 20px;
+}
+
 @media (max-width:600px) {
     .b{
         flex-direction: column;
