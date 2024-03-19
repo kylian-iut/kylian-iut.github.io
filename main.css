@@ -8,7 +8,7 @@ body{
 }
 
 main{
-    background-color: rgba(252, 252, 252, 0.445);
+    background-color: rgba(252, 252, 252, 0.645);
     margin: 3%;
     display: flex;
     flex-wrap: wrap;
