@@ -32,7 +32,7 @@ En français
 En anglais
 {% endfile %}
 
-{% file src=".gitbook/assets/Relevés de notes R&T biffé.pdf" %}
+{% file src=".gitbook/assets/Relevés de notes R&T biffé (1).pdf" %}
 
 ## Certifications
 
