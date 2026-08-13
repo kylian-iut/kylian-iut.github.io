@@ -8,7 +8,7 @@ coverY: 0
 
 # Kylian Adam
 
-<img src=".gitbook/assets/IMG_icon.jpg" alt="Image du profil de Kylian Adam" width="188">
+<img src=".gitbook/assets/Kylian.jpg" alt="Image du profil de Kylian Adam" width="188">
 
 ## À propos de moi
 
