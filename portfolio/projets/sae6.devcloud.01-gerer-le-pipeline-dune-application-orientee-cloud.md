@@ -16,8 +16,6 @@ Configurer une machine avec l'OS Proxmox SE afin de créer notre environnement d
 
 <div><figure><img src="../.gitbook/assets/Capture d’écran (11).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Capture d’écran (10).png" alt=""><figcaption></figcaption></figure></div>
 
-{% embed url="https://webdav.kykserv.fr/public/D%C3%A9monstration%20SAE6.01.mp4" %}
-
 ## Compétences acquises
 
 * S'appuyer sur l'IaC Terraform pour mettre en place un environnement

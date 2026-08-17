@@ -29,4 +29,4 @@ J'ai conçu une API pour la gestion du panier du client et des commandes. J'ai d
 
 Organisation GitHub (6 Dépôts, 1 Projet)
 
-{% embed url="https://github.com/orgs/LesProsDevCloud" %}
+{% embed url="https://github.com/LesProsDevCloud" %}
